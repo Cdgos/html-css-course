@@ -14,6 +14,8 @@ Extensiones VS Code:
 5. Auto Close Tag
 6. Fluent Icons
 7. Symbols
+8. Image preview
+9. Prettier
 
 Configuracion VS Code: https://www.youtube.com/shorts/VUsdD_Clmyw
 
