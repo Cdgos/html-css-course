@@ -16,3 +16,5 @@ Extensiones VS Code:
 7. Symbols
 
 Configuracion VS Code: https://www.youtube.com/shorts/VUsdD_Clmyw
+
+Instalar Fuente Cascadia Code y activar ligaduras: https://www.youtube.com/watch?v=dWYftE4M9MQ&ab_channel=divcode
