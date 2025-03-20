@@ -17,4 +17,6 @@ Extensiones VS Code:
 
 Configuracion VS Code: https://www.youtube.com/shorts/VUsdD_Clmyw
 
-Instalar Fuente Cascadia Code y activar ligaduras: https://www.youtube.com/watch?v=dWYftE4M9MQ&ab_channel=divcode
+Instalar Fuente Cascadia Code: https://www.youtube.com/watch?v=dWYftE4M9MQ&ab_channel=divcode
+
+Activar ligaduras Vs Code: Settings > Search Editor: Font Ligatures > Edit in settings.json > "editor.fontLigatures": true
