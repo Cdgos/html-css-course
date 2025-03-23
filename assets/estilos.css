@@ -9,3 +9,8 @@ h1 {
 code {
     background-color: cadetblue;
 }
+
+img {
+    max-width: 50%;
+    height: auto;
+}
