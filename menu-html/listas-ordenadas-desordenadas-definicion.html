@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección Listas Ordenadas, Desordenadas y de Definición HTML5">
+    <title>Listas Ordenadas, Desordenadas y de Definición</title>
+</head>
+<body>
+    
+    <button>
+        <a href="../index.html">Volver</a>
+    </button>
+
+    <h1>Listas Ordenadas, Desordenadas y de Definición</h1>
+
+    <hr>
+
+    <h2>Listas Ordenadas</h2>
+
+    <p>Etiqueta &lt;ol&gt; (Order list) y cada elemento en etiquetas &lt;li&gt; (List Item)</p>
+
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <p>Podemos indicarle desde que índice queramos que inicie con el atributo start="numero"</p>
+
+    <ol start="3">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    
+    <p>Podemos indicarle invierta el orden de la lista con el atributo reversed</p>
+    
+    <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <p>Podemos indicarle el tipo de índice a utilizar en la lista con el atributo type</p>
+
+    <pre>
+        - A: Alfabéticamente en mayúsculas
+        - a: Alfabéticamente en minúsculas
+        - 1: Numéricamente (Por defecto si no especificamos type)
+        - I: Alfabéticamente en Romanos mayúsculas
+        - i: Alfabéticamente en Romanos minúsculas
+    </pre>
+
+    <ol type="A">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <ol type="a">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <ol type="1">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <ol type="I">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <ol type="i">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+
+    <hr>
+
+    <h2>Listas Desordenadas</h2>
+
+    <hr>
+
+    <p>Son las mismas líneas llamadas con viñetas.</p>
+    <p>Etiqueta &lt;ul&gt; (Unorder list) y cada elemento en etiquetas &lt;li&gt; (List Item)</p>
+
+    <ul>
+        <li>Aprender HTML5</li>
+        <li>Aprender CSS3</li>
+        <li>Aprender Javascript</li>
+        <li>Aprender React</li>
+    </ul>
+
+    <p>Podemos indicarle el tipo de viñeta a utilizar en la lista con el atributo type</p>
+
+    <pre>
+        - disc: Circulos rellenos (Por defecto si no especificamos type)
+        - circle: Circulos sin relleno
+        - square: Cuadrados
+    </pre>
+
+    <ul type="disc">
+        <li>Aprender HTML5</li>
+        <li>Aprender CSS3</li>
+        <li>Aprender Javascript</li>
+        <li>Aprender React</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Aprender HTML5</li>
+        <li>Aprender CSS3</li>
+        <li>Aprender Javascript</li>
+        <li>Aprender React</li>
+    </ul>
+
+    <ul type="square">
+        <li>Aprender HTML5</li>
+        <li>Aprender CSS3</li>
+        <li>Aprender Javascript</li>
+        <li>Aprender React</li>
+    </ul>
+
+    <hr>
+
+    <h2>Listas de Definición</h2>
+
+    <p>Son las menos utilizadas, pero existen. Ejemplo: Usada para glosarios de términos.</p>
+    <p>Etiqueta &lt;dl&gt; (Definition list), &lt;dt&gt; (Definition term) y &lt;dd&gt; (Definition data)</p>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Es un lenguaje de marcado que define el contenido de la web.</dd>
+
+        <dt>CSS</dt>
+        <dd>Es un lenguaje de definición que da estilos al código HTML.</dd>
+
+        <dt>Javascript</dt>
+        <dd>Es el lenguanje de programación de la web.</dd>
+    </dl>
+
+</body>
+</html>
