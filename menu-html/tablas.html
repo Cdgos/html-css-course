@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección tablas HTML5">
+    <title>Tablas</title>
+</head>
+<body>
+    
+    <button>
+        <a href="../index.html">Volver</a>
+    </button>
+
+    <h1>Tablas</h1>
+
+    <h3>Tabla básica</h3>
+    <p>Etiqueta &lt;table&gt;</p>
+    <p>Etiqueta &lt;tr&gt; Filas (Table row)</p>
+    <p>Etiqueta &lt;td&gt; Columnas (Table data)</p>
+
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Poder</td>
+            <td>Heroe o Villano</td>
+        </tr>
+        <tr>
+            <td>Iron Man</td>
+            <td>Inteligencia y armadura</td>
+            <td>Heroe</td>
+        </tr>
+        <tr>
+            <td>Capitan America</td>
+            <td>Valor, super soldado</td>
+            <td>Heroe</td>
+        </tr>
+        <tr>
+            <td>Thanos</td>
+            <td>Superfuerza, gemas del infinito</td>
+            <td>Villano</td>
+        </tr>
+        <tr>
+            <td>Spiderman</td>
+            <td>Superfuerza, inteligente, agilidad y sentido arácnido</td>
+            <td>Heroe</td>
+        </tr>
+    </table>
+
+    <h3>Tabla más elaborada</h3>
+
+    <p>Etiqueta &lt;table&gt;</p>
+    <p>Etiqueta &lt;thead&gt; Cabecera (Table head)</p>
+    <p>Etiqueta &lt;th&gt; Encabezado (Table heading), texto en negrita.</p>
+    <p>Etiqueta &lt;tbody&gt; Cuerpo (Table body)</p>
+    <p>Etiqueta &lt;tfoot&gt; Pie (Table foot)</p>
+    <p>Etiqueta &lt;tr&gt; Filas (Table row)</p>
+    <p>Etiqueta &lt;td&gt; Columnas (Table data)</p>
+    <p>Atributo colspan="numero" permite que una celda ocupe N columnas.</p>
+    <p>Atributo rowspan="numero" permite que una celda ocupe N filas.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Superheroes y villanos de Marvel</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Poder</th>
+                <th>Heroe o Villano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iron Man</td>
+                <td>Inteligencia y armadura</td>
+                <td rowspan="3">Heroe</td>
+            </tr>
+            <tr>
+                <td>Capitan America</td>
+                <td>Valor, super soldado</td>
+                <td></td> <!-- td 2 ocupado por rowspan -->
+            </tr>
+            <tr>
+                <td>Spiderman</td>
+                <td>Superfuerza, inteligente, agilidad y sentido arácnido</td>
+                <td></td> <!-- td 3 ocupado por rowspan -->
+            </tr>
+            <tr>
+                <td>Thanos</td>
+                <td>Superfuerza, gemas del infinito</td>
+                <td>Villano</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">
+                    <small>By Stan Lee</small>
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
