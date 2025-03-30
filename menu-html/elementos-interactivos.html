@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección Elementos Interactivos en HTML5">
+    <title>Elementos Interactivos</title>
+</head>
+<body>
+    
+    <button>
+        <a href="../index.html">Volver</a>
+    </button>
+
+    <h1>Elementos interactivos</h1>
+
+    <p>Podemos ejecutar eventos javascript en elementos html.</p>
+
+    <button onclick="alert('Hola, como estas?')">Alerta atributo onclick="codejs"</button>
+
+    <br><br>
+
+    <details>
+        <summary>Acordeon cerrado al cargar</summary>
+
+        <article>
+            <h3>Contenido del acordeon</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+
+            <img src="../img/puesta-sol.jpg" alt="Puesta de sol">
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+        </article>
+    </details>
+
+    <br>
+
+    <details open>
+        <summary>Acordeon abierto al cargar atributo open</summary>
+
+        <article>
+            <h3>Contenido del acordeon</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+
+            <img src="../img/puesta-sol.jpg" alt="Puesta de sol">
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quam laboriosam ducimus porro inventore, odio aliquam quia fuga. Eaque praesentium ex molestiae assumenda pariatur cumque, neque dolor dicta ipsam consequuntur!</p>
+        </article>
+    </details>
+
+    <!-- Etiqueta experimental, aun no esta soportada por la mayoria de navegadores. -->
+    <dialog open closedby="any">
+        Ventana modal html
+
+        <form method="dialog">
+            <button>Cerrar</button>
+        </form>
+    </dialog>
+
+</body>
+</html>
