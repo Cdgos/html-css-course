@@ -14,7 +14,12 @@ code {
     background-color: cadetblue;
 }
 
-img {
+img, video {
     max-width: 50%;
     height: auto;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
 }
