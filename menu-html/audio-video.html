@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección Audio y video en HTML5">
+    <title>Audio y Video</title>
+</head>
+<body>
+    
+    <button>
+        <a href="../index.html">Volver</a>
+    </button>
+
+    <h1>Audio y Video</h1>
+
+    <hr>
+
+    <h3>Audio</h3>
+
+    <p>Etiqueta &lt;audio&gt; &lt;/audio&gt;</p>
+    <p>Atributo <b>controls</b> obligatorio para visualizarlo y reproducirlo.</p>
+    <p>Atributo autoplay: El audio inicia inmediatamente cargue la pagina. No funciona en todos los navegadores o dispositivos por permisos.</p>
+    <p>Atributo loop: Cuando el audio termine, lo vuelve a reproducir automaticamente.</p>
+    <p>Atributo muted: Mutea el audio.</p>
+    <p>Atributo preload="valor": se utiliza para indicar al navegador si debe cargar el archivo de audio de manera anticipada antes de que el usuario lo reproduzca.</p>
+
+    <ul>
+        <li>none: No carga el archivo de audio, lo hace solo cuando el usuario inicia la reproducción.</li>
+        <li>metadata: Carga solo los metadatos del archivo, por ejemplo, duración, información de codec, etc.</li>
+        <li>auto: Carga el archivo de audio completo antes de la reproducción.</li>
+    </ul>
+
+    <audio src="../media/Feels-PatrickPatrikios.mp3" controls autoplay loop preload="auto"></audio>
+
+    <hr>
+
+    <h3>Video</h3>
+
+    <p>Etiqueta &lt;video&gt; &lt;/video&gt;</p>
+    <p>Atributo <b>controls</b> obligatorio para reproducirlo.</p>
+    <p>Atributo autoplay: El video inicia inmediatamente cargue la pagina. No funciona en todos los navegadores o dispositivos por permisos.</p>
+    <p>Atributo loop: Cuando el video termine, lo vuelve a reproducir automaticamente.</p>
+    <p>Atributo muted: Mutea el video.</p>
+    <p>Atributo poster="img": Miniatura.</p>
+
+    <video src="../media/kenai.mp4" controls loop poster="../img/puesta-sol.jpg"></video>
+
+</body>
+</html>
